@@ -1,0 +1,29 @@
+.border {
+    border-style: solid;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.p-total {
+    padding: 50px;
+}
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.p-linea {
+    padding: 50px 30px 20px 100px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mx-100 {
+    margin-left: 100px;
+    margin-right: 100px;
+}

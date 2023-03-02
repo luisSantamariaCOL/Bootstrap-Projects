@@ -1,0 +1,92 @@
+/* primary: #264653;
+seoncdary: #2a9d8f;
+danger: #e76f51;
+info: #e9c46a; */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+}
+
+.btn-primary{
+    background-color: #264653;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.btn-danger{
+    background-color: #e76f51;
+    color: black;
+}
+
+.btn-info{
+    background-color: #e9c46a;
+    color: black;
+}
+
+.logo {
+    display: block;
+    font-size: 3rem; /* 48px */
+    padding: 1em; /* 48px, lo que vale el 3rem */
+    text-align: center;
+    text-decoration: none;
+    background-color: #264653;
+    color: white;
+}
+
+.card {
+    width: 20rem;
+    background-color: #264653;
+    overflow: hidden; /* para que la imagen no se sobresalga del tamaño del elemento card. */
+    color: white;
+    border-radius: 0.5em;
+}
+
+.card-img {
+    width: 100%; /* para que la imagen ocupe todo el ancho del elemento card */	
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 900;
+}
+
+.card-body p {
+    font-weight: 300;
+}

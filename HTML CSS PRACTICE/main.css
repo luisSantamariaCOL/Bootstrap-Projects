@@ -1,0 +1,59 @@
+/*
+
+primary: #383e56
+secondary: #f69e7b
+light: #eedad1
+info: #d4b5b0 
+
+*/
+
+.bg-primary {
+    background-color: #383e56;
+}
+
+.bg-secondary {
+    background-color: #f69e7b;
+}
+
+.bg-light {
+    background-color: #eedad1;
+}
+
+.bg-info {
+    background-color: #d4b5b0;
+}
+
+.text-primary {
+    color: #383e56;
+}
+
+.text-secondary {
+    color: #f69e7b;
+}
+
+.text-light {
+    color: #eedad1;
+}
+
+.text-info {
+    color: #d4b5b0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    background-color: #383e56;
+    color: #f69e7b;
+
+}
