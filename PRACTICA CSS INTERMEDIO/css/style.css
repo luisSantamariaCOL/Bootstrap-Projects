@@ -55,6 +55,11 @@ body {
     color: black;
 }
 
+.btn-success {
+    color: back;
+    background-color: #f4a261;
+}
+
 .logo {
     display: block;
     font-size: 3rem; /* 48px */
